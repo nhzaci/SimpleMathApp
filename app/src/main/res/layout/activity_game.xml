@@ -90,7 +90,7 @@
     <androidx.gridlayout.widget.GridLayout
         android:id="@+id/answerMatrix"
         android:layout_width="337dp"
-        android:layout_height="314dp"
+        android:layout_height="250dp"
         android:layout_marginStart="37dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="37dp"

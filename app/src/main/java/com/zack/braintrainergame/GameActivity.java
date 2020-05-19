@@ -113,10 +113,8 @@ public class GameActivity extends AppCompatActivity {
                     break;
             }
             //Set up options in grid layout
-            Log.i("AnswerButtonIndex: ", Integer.toString(answerIndex));
             for (int i = 0; i < answerMatrix.getChildCount(); i++) {
                 Button childButton = (Button) answerMatrix.getChildAt(i);
-                Log.i("buttonIndices on loop: ",  childButton.getTag().toString());
                 if (childButton.getTag().toString().equals(Integer.toString(answerIndex))) {
                     childButton.setText(String.valueOf(answer));
                 } else {
@@ -170,6 +168,7 @@ public class GameActivity extends AppCompatActivity {
         //to be executed by playAgainButton
         qnCount = 0;
         score = 0;
+        scoreText.setText(Integer.toString(score));
         for (int i = 0; i < answerMatrix.getChildCount(); i++) {
             answerMatrix.getChildAt(i).setEnabled(true);
         }
