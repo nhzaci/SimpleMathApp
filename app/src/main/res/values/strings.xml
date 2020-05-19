@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Brain Trainer Game</string>
+    <string name="go">GO</string>
+    <string name="title_activity_game">GameActivity</string>
+</resources>
